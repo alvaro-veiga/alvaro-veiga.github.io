@@ -4,7 +4,7 @@ import { RxPerson } from 'react-icons/rx'
 
 export default function Topbar() {
   return (
-    <div className='topbar'>
+    <div className='topbar active'>
       <div className='wrapper'>
         <div className='left'>
           <a href='#intro' className='logo'>ajsv.</a>
@@ -18,6 +18,11 @@ export default function Topbar() {
           </div>
         </div>
         <div className='right'>
+          <div className="hamburger">
+            <span className='line 1'></span>
+            <span className='line 2'></span>
+            <span className='line 3'></span>
+          </div>
         </div>
       </div>
     </div>

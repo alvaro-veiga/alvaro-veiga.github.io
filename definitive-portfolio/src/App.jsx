@@ -5,7 +5,8 @@ import Projects from "./components/projects/Projects";
 import Technologies from "./components/technologies/Technologies";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
-import "./app.scss";
+
+
 
 function App() {
   return (
