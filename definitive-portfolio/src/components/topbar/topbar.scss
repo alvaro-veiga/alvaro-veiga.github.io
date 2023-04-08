@@ -7,7 +7,8 @@
     color: $mainCollor;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
+    transition: all 0.75s ease;
 
     .wrapper {
         padding: 10px 20px;
@@ -60,7 +61,7 @@
                     height: 3px;
                     background-color: $mainCollor;
                     transform-origin: left;
-                    transition: all 2s ease;
+                    transition: all 0.75s ease;
                 }
             }
         }
@@ -81,7 +82,7 @@
                 span {
                     background-color: white;
 
-                    &.first-child {
+                    &:first-child {
                         background-color: white;
                         transform: rotate(45deg);
                     }
@@ -89,7 +90,7 @@
                         opacity: 0;
 
                     }
-                    &.last-child {
+                    &:last-child {
                         background-color: white;
                         transform: rotate(-45deg);
                     }

@@ -1,3 +1,14 @@
 .intro {
     background: lightskyblue;
+    display: flex;
+
+    .left {
+        flex: 0.5;
+        background-color: yellow;
+    }
+
+    .right {
+        flex: 0.5;
+        background-color: red;
+    }
 }
