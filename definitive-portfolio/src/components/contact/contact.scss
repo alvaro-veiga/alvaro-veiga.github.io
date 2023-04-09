@@ -1,3 +1,75 @@
+@import '../../global.scss';
+
 .contact {
-    background-color: lightblue;
+    background-color: #f2f2f2;
+    display: flex;
+
+   
+    .left{
+        flex: 1;
+        overflow: hidden;
+        img {
+            width: 800px;
+            height: 100%;
+        }
+    }
+    .right{
+        flex: 1;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        justify-content: space-around;
+
+        h2 {
+            font-size: 40px;
+        }
+        form {
+            width: 70%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            input {
+                width:300px;
+                height: 40px;
+                font-size: 15px;
+                margin-top: 15px;
+                border-radius: 10px;
+                border: none;
+            }
+            textarea {
+                margin-top: 15px;
+                border: none;
+                border-radius: 10px;
+                width:300px;
+                height: 200px;
+                font-size: 15px;
+                resize: none;
+            }
+            button {
+                margin-top: 15px;
+                width: 150px;
+                height: 30px;
+                color: white;
+                background-color: $mainCollor;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+
+                &focus {
+                    outline: none;
+                }
+            }
+            span {
+                font-size: 12px;
+                color: $mainCollor;
+                margin-top: 5px;
+            }
+        }   
+    }
 }
