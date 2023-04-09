@@ -12,16 +12,16 @@ export default function Portfolio() {
       <div className="container">
         <div className="item">
           <img src="assets/refproject.png"/>
+          <h3>Kanban project</h3>
         </div>
-        <h3>Kanban project</h3>
         <div className="item">
           <img src="assets/refproject.png"/>
+          <h3>Kanban project</h3>
         </div>
-        <h3>Kanban project</h3>
         <div className="item">
           <img src="assets/refproject.png"/>
+          <h3>Kanban project</h3>
         </div>
-        <h3>Kanban project</h3>
       </div>
     </div>
   )
