@@ -14,7 +14,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
           </div>
           <div className="itemContainer">
             <IoIosMail className='icon'/>
-            <span>+55 99999-9999</span>
+            <span>example@email.com</span>
           </div>
         </div>
         <div className='right'>
