@@ -10,11 +10,11 @@ export default function Topbar({menuOpen, setMenuOpen}) {
           <a href='#intro' className='logo'>ajsv.</a>
           <div className="itemContainer">
             <RxPerson className='icon'/>
-            <span>+55 99999-9999</span>
+            <span>+55 21 2391-3205</span>
           </div>
           <div className="itemContainer">
             <IoIosMail className='icon'/>
-            <span>example@email.com</span>
+            <span>alvaro.veiga.dev@gmail.com</span>
           </div>
         </div>
         <div className='right'>
