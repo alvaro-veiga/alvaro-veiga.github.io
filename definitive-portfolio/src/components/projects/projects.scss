@@ -3,16 +3,32 @@
 .projects {
     margin-top: 700px;
     margin-bottom: 300px;
-    background-color: crimson;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .arrow {
+        margin-right: 10px;
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        
+        &.left {
+            left: 100px;
+            transform: rotate(180deg);
+        }
+        &.right {
+            right: 100px;
+        }
+        
+    }
 
     .slider {
         height: 450px;
         display: flex;
         position: absolute;
         left: 0;
+        transition: all 1s ease-out;
 
         .container {
             width: 100vw;
@@ -97,7 +113,7 @@
                         scroll-behavior: smooth;
                         scroll-snap-type: y mandatory;
                         scrollbar-width: none;
-                        
+
                         &::-webkit-scrollbar {
                             display: none;
                         }
