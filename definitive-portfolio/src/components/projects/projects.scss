@@ -1,11 +1,17 @@
 @import "../../global.scss";
 
 .projects {
-    margin-top: 700px;
+    margin-top: 600px;
     margin-bottom: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 600px;
+    }
 
     .arrow {
         margin-right: 10px;

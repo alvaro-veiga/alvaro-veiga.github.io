@@ -18,6 +18,13 @@ export default function Projects() {
       desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum delectus suscipit, esse atque ad enim hic? Non saepe quam voluptate nihil, porro magni nulla nisi minima impedit tenetur obcaecati nostrum.',
       img: 'assets/globe.png'
     },
+    {
+      id: '3',
+      icon: 'assets/front-end.png',
+      title: 'Branding',
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum delectus suscipit, esse atque ad enim hic? Non saepe quam voluptate nihil, porro magni nulla nisi minima impedit tenetur obcaecati nostrum.',
+      img: 'assets/writing.png'
+    },
   ]
 
   const handleClick = (way) => {
@@ -25,6 +32,7 @@ export default function Projects() {
   }
   return (
     <div className='projects'id='projects'>
+      <h1>Projetos</h1>
       <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
         {data.map((d) => (
           <div className="container">
@@ -36,7 +44,8 @@ export default function Projects() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <span>Projeto</span>
+                  <a></a>
                 </div>
               </div>
               <div className="right">
