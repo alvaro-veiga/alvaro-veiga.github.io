@@ -9,12 +9,19 @@
     top: 0;
     z-index: 3;
     transition: all 0.75s ease;
-
+    
     .wrapper {
         padding: 10px 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @include mobile {
+            position: absolute !important;
+            top: 0;
+            width: 100%;
+        }
+    
         
         .left {
             display: flex;
@@ -26,12 +33,20 @@
                 text-decoration: none;
                 color: $mainCollor;
                 margin-right: 40px;
+
+                @include mobile {
+                    position: relative;
+                }
             }
 
             .itemContainer {
                 display: flex;
                 align-items: center;
                 margin-left: 30px;
+
+                @include mobile {
+                    display: none;
+                }
 
                 .icon {
                     font-size: 20px;
@@ -55,6 +70,10 @@
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
+
+                @include mobile {
+                    margin-right: 50px;
+                }
 
                 span {
                     width: 100%;

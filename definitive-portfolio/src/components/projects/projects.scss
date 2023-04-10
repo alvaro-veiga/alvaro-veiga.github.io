@@ -9,6 +9,7 @@
     text-align: center;
     background-color: aqua;
 
+
     h1 {
         font-size: 50px;
         margin-bottom: 600px;
@@ -16,6 +17,10 @@
         margin-top: 10px;
         padding: 5px;
         border-radius: 10px;
+
+        @include mobile {
+            font-size: 30px;
+        }
     }
 
     .arrow {
@@ -24,6 +29,10 @@
         position: absolute;
         cursor: pointer;
         
+        @include mobile {
+            display: none;
+        }
+
         &.left {
             left: 100px;
             transform: rotate(180deg);
@@ -41,6 +50,13 @@
         left: 0;
         transition: all 1s ease-out;
 
+        @include mobile {
+            height: 100vh;
+            margin-top: 50px;
+            flex-direction: column;
+            justify-content: center;
+        }
+
         .container {
             width: 100vw;
             display: flex;
@@ -56,6 +72,12 @@
                 align-items: center;
                 justify-content: center;
 
+                @include mobile {
+                    width: 90%;
+                    height: 180px;
+                    margin: 5px 0px;
+                }
+
                 .left {
                     flex: 4;
                     margin-left: 40px;
@@ -70,6 +92,12 @@
                     scroll-snap-type: y mandatory;
                     scrollbar-width: none;
                     
+                    @include mobile {
+                        width: 150px;
+                        margin-left: 5px;
+                        margin: 0;
+                    }
+
                     &::-webkit-scrollbar {
                         display: none;
                     }
@@ -81,6 +109,10 @@
                         flex-direction: column;
                         justify-content: space-between;
 
+                        @include mobile {
+                            width: 100%;
+                        }
+
                         .imgContainer {
                             width: 70px;
                             height: 70px;
@@ -89,6 +121,10 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+
+                            @include mobile {
+                                display: none;
+                            }
 
                             img {
                                 width: 40px;
@@ -99,16 +135,29 @@
                         h2 {
                             font-size: 20px;
                             font-weight: 800;
+
+                            @include mobile {
+                                font-size: 10px;
+                            }
                         }
                         p {
                             font-size: 13px;
                             font-weight: 500;
+                            
+                            @include mobile {
+                                width: 100%;
+                                font-size: 8px;
+                            }
                         }
                         span {
                             font-size: 12px;
                             font-weight: 600;
                             text-decoration: underline;
                             cursor: pointer;
+
+                            @include mobile {
+                                font-size: 8px;
+                            }
                         }
                     }	
                 }

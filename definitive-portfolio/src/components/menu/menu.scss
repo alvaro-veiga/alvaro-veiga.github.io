@@ -16,8 +16,18 @@
 
     &.active {
         right: 0;
+        @include mobile {
+            position: fixed;
+            top: 70px;
+            right: 0;
+            width: 100%;
+            height: calc(100vh - 70px);
+            z-index: 3;
+        }
     }
-    
+
+
+
     ul {
         margin: 0;
         padding: 0;
@@ -26,6 +36,12 @@
         font-weight: 300;
         color: white;
         width: 60%;
+
+        @include mobile {
+            margin-left: 300px;
+            width: 100%;
+            font-size: 20px;
+        }
 
         li {
             margin-bottom: 20px;

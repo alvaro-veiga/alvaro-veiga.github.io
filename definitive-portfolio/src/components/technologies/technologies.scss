@@ -1,76 +1,97 @@
+@import '../../global.scss';
+
 .technologies{
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 
-    h1 {
-        font-size: 50px;
-        margin-top: 100px;
-    }
-    
-    .cards {
-      display: flex;
-      padding: 40px;
-      margin: 40px;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 40px;
-      overflow: hidden;
-      
-      .card {
-        width: 450px;
-        height: 350px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: aqua;
-        border-radius: 20px;
-        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease-in-out;
-        cursor: pointer;
-        overflow: hidden;
-        margin-top: 40px;
+  @include mobile {
+    width: 100%;
+  }
 
-        
-        .card::-webkit-scrollbar {
-            display: none;
-          }
-
-        &:hover, &.hovered {
-            transform: scale(1.1);
-            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
-        }
-        
-        .box {
-            width: 80%;
-            height: 80%;
-            background-color: white;
-            border-radius: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            h4 {
-              font-size: 20px;
-              font-weight: 800;
-              color: #555;
-              padding: 3px;
-            }
-            
-            img {
-                width: 100px;
-                height: 100px;
-            }
-            p {
-                font-size:14px;
-                font-weight: 500;
-            }
-        }
-      }
-
-    }
+  h1 {
+      font-size: 50px;
+      margin-top: 100px;
   }
   
-  
-  
-  
+  .cards {
+    display: flex;
+    padding: 40px;
+    margin: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 40px;
+    overflow: hidden;
+    
+    .card {
+      width: 450px;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: aqua;
+      border-radius: 20px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      overflow: hidden;
+      margin-top: 40px;
+
+      
+
+      
+      .card::-webkit-scrollbar {
+          display: none;
+        }
+
+      &:hover, &.hovered {
+          transform: scale(1.1);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+      }
+      
+      .box {
+          width: 80%;
+          height: 80%;
+          background-color: white;
+          border-radius: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          @include mobile {
+            overflow: hidden;
+          }
+
+          h4 {
+            font-size: 20px;
+            font-weight: 800;
+            color: #555;
+            padding: 3px;
+            
+            @include mobile {
+              overflow: hidden;
+            }
+          }
+          
+          img {
+              width: 100px;
+              height: 100px;
+          }
+          p {
+              font-size:14px;
+              font-weight: 500;
+
+              @include mobile {
+                font-size: 10px;
+                overflow: hidden;
+              }
+          }
+      }
+    }
+
+  }
+}
+
+
+
