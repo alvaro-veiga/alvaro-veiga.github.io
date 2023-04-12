@@ -52,10 +52,14 @@
                     font-size: 20px;
                     margin-right: 5px;
                 }
-                span {
-                    font-size: 15px;
-                    font-weight: 500;
-                    cursor: pointer;
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    span {
+                        font-size: 15px;
+                        font-weight: 500;
+                        cursor: pointer;
+                    }
                 }
             }
 
