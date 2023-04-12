@@ -70,6 +70,7 @@
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
+                overflow: hidden;
 
                 @include mobile {
                     margin-right: 50px;

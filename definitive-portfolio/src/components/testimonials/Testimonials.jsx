@@ -12,6 +12,19 @@ export default function Testimonials() {
       icon: "assets/linkedin.png",
       desc:
         "Um grande amigo e um grande profissional. Sempre muito atencioso e disposto a ajudar. Recomendo!",
+      link:"https://www.linkedin.com/in/victormenendes/",
+      featured: true,
+    },
+    {
+      id: 1,
+      name: "Kayani Pereira",
+      title: "Web Developer",
+      img:
+        "assets/kayani.png",
+      icon: "assets/linkedin.png",
+      desc:
+        "Uma pessoa que trabalha com muito amor e dedicação no ramo que é designado. Sucesso sempre!",
+      link:"https://www.linkedin.com/in/kayani-pereira-leandro-084160208/",
       featured: true,
     },
   ]
@@ -29,7 +42,7 @@ export default function Testimonials() {
                 alt=""
               />
               <div className='midia'>
-                <a href="https://www.linkedin.com/in/victormenendes/">
+                <a href={d.link}>
                 <img className="right" src={d.icon} alt="" />
                 </a>
               </div>

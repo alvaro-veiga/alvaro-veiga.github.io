@@ -2,48 +2,33 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "Destaques",
-        img: "assets/refproject.png",
+        img: "assets/kanban.jpg",
+        link: "https://github.com/allystor/Controle-de-tarefas"
     },
     {
         id: 2,
-        title: "Front-end",
-        img: "assets/refproject.png",
-    },
-    {
-        id: 3,
-        title: "Back-end",
-        img: "assets/refproject.png",
+        title: "Destaques",
+        img: "assets/psc.png",
+        link: "https://github.com/allystor/professional-career-system"
     },
 ]
 
 export const frontendPortfolio = [
     {
-        id: 2,
+        id: 1,
         title: "Front-end",
-        img: "assets/refproject.png",
-    },
-    {
-        id: 3,
-        title: "Back-end",
-        img: "assets/refproject.png",
-    },
+        img: "assets/kanban.jpg",
+        link: "https://github.com/allystor/Controle-de-tarefas"
+        
+    }
 
 ]
 
 export const backendPortfolio = [
     {
         id: 1,
-        title: "Destaques",
-        img: "assets/refproject.png",
-    },
-    {
-        id: 2,
-        title: "Front-end",
-        img: "assets/refproject.png",
-    },
-    {
-        id: 3,
         title: "Back-end",
-        img: "assets/refproject.png",
+        img: "assets/psc.png",
+        link: "https://github.com/allystor/professional-career-system"       
     },
 ]

@@ -121,6 +121,7 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            
 
                             @include mobile {
                                 display: none;
@@ -137,7 +138,7 @@
                             font-weight: 800;
 
                             @include mobile {
-                                font-size: 10px;
+                                font-size: 9px;
                             }
                         }
                         p {
@@ -146,7 +147,7 @@
                             
                             @include mobile {
                                 width: 100%;
-                                font-size: 8px;
+                                font-size: 7px;
                             }
                         }
                         span {
@@ -155,8 +156,14 @@
                             text-decoration: underline;
                             cursor: pointer;
 
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+
                             @include mobile {
-                                font-size: 8px;
+                                padding: 3px;
+                                font-size: 7px;
                             }
                         }
                     }	
@@ -179,6 +186,7 @@
                         scroll-behavior: smooth;
                         scroll-snap-type: y mandatory;
                         scrollbar-width: none;
+                        overflow: hidden;
 
                         &::-webkit-scrollbar {
                             display: none;

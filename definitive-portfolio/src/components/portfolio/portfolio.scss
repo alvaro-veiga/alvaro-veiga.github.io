@@ -73,6 +73,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        overflow: hidden;
 
         .item {
             width: 220px;
@@ -87,11 +88,13 @@
             position: relative;
             transition: all .5 ease;
             cursor: pointer;
+            overflow: hidden;
 
 
             h3 {
                 position: absolute;
                 font-size: 20px;
+                display: none;
             }
 
             img {
@@ -99,13 +102,21 @@
                 height: 100%;
                 object-fit: cover;
                 z-index: 1;
+                overflow: hidden;
             }
 
             &:hover {
                 background-color: $mainCollor;
-                img {
-                    opacity: 0.2;
-                    z-index: 0;
+                h3 {
+                    display: block;
+                }
+
+                a {
+                    
+                    img {
+                        opacity: 0.2;
+                        z-index: 0;
+                    }
                 }
             }
         }

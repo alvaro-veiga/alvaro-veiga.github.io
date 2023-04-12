@@ -7,23 +7,26 @@ export default function Projects() {
     {
       id: '1',
       icon: 'assets/front-end.png',
-      title: 'Web Design',
-      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum delectus suscipit, esse atque ad enim hic? Non saepe quam voluptate nihil, porro magni nulla nisi minima impedit tenetur obcaecati nostrum.',
-      img: 'assets/mobile.png'
+      title: 'Professional carrer system',
+      desc: 'Trata se de um pequeno sistema de gerenciamento de carreira profissional, onde o usuário pode cadastrar seus dados pessoais, suas experiências profissionais e suas habilidades. O sistema também permite que o usuário possa gerar um currículo em PDF.',
+      img: 'assets/psc.png',
+      link: 'https://github.com/allystor/professional-career-system'
     },
     {
       id: '2',
-      icon: 'assets/front-end.png',
-      title: 'Mobile App',
-      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum delectus suscipit, esse atque ad enim hic? Non saepe quam voluptate nihil, porro magni nulla nisi minima impedit tenetur obcaecati nostrum.',
-      img: 'assets/globe.png'
+      icon: 'assets/globe.png',
+      title: 'snack station',
+      desc: 'Pequeno site criado para uma lanchonete que funciona como um cardápio online, onde o usuário pode visualizar os produtos e fazer pedidos.',
+      img: 'assets/resturant.jpg',
+      link: 'https://github.com/allystor/Estacao-do-lanche'
     },
     {
       id: '3',
       icon: 'assets/front-end.png',
-      title: 'Branding',
-      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum delectus suscipit, esse atque ad enim hic? Non saepe quam voluptate nihil, porro magni nulla nisi minima impedit tenetur obcaecati nostrum.',
-      img: 'assets/writing.png'
+      title: 'Task control',
+      desc: 'Pequena aplicação web para controle de tarefas, onde o usuário pode criar tarefas de acordo com o projeto, e também pode alterar o status da tarefa, podendo ser: pendente, em andamento e concluída.',
+      img: 'assets/kanban.jpg',
+      link: 'https://github.com/allystor/Controle-de-tarefas'
     },
   ]
 
@@ -44,13 +47,16 @@ export default function Projects() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projeto</span>
+                  <span>
+                    <a href={d.link}>{d.link}</a>
+                  </span>
+                  
                   <a></a>
                 </div>
               </div>
               <div className="right">
                 <div className="rightContainer">
-                  <img src="assets/psc.png"/>
+                  <img src={d.img}/>
                 </div>
               </div>
             </div>
