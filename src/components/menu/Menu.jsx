@@ -1,4 +1,6 @@
 import "./menu.scss"
+import { IoIosMail } from 'react-icons/io'
+import { RxPerson } from 'react-icons/rx'
 
 export default function Menu({menuOpen, setMenuOpen}) {
   return (
@@ -23,6 +25,18 @@ export default function Menu({menuOpen, setMenuOpen}) {
             <a href="#contacts">Contatos</a>
         </li>
       </ul>
+      <div className="itemContainer">
+        <RxPerson className='icon'/>
+        <a href="https://api.whatsapp.com/send?phone=552123913205">
+          <span>+55 21 2391-3205</span>
+        </a>
+      </div>
+      <div className="itemContainer">
+        <IoIosMail className='icon'/>
+        <a href="mailto:alvarojoao17@gmail.com">
+          <span>alvaro.veiga.dev@gmail.com</span>
+        </a>
+      </div>
     </div>
   )
 }
