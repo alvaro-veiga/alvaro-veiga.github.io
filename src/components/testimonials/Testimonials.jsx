@@ -20,7 +20,7 @@ export default function Testimonials() {
       name: "Kayani Pereira",
       title: "Web Developer",
       img:
-        "assets/kayani.png",
+        "assets/kayani.jpeg",
       icon: "assets/linkedin.png",
       desc:
         "Uma pessoa que trabalha com muito amor e dedicação no ramo que é designado. Sucesso sempre!",
