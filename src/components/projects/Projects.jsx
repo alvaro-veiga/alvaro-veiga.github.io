@@ -50,8 +50,6 @@ export default function Projects() {
                   <span>
                     <a href={d.link}>{d.link}</a>
                   </span>
-                  
-                  <a></a>
                 </div>
               </div>
               <div className="right">
