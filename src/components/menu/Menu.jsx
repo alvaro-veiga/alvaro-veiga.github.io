@@ -26,12 +26,6 @@ export default function Menu({menuOpen, setMenuOpen}) {
         </li>
       </ul>
       <div className="itemContainer">
-        <RxPerson className='icon'/>
-        <a href="https://api.whatsapp.com/send?phone=552123913205">
-          <span>+55 21 2391-3205</span>
-        </a>
-      </div>
-      <div className="itemContainer">
         <IoIosMail className='icon'/>
         <a href="mailto:alvarojoao17@gmail.com">
           <span>alvaro.veiga.dev@gmail.com</span>

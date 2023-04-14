@@ -9,12 +9,6 @@ export default function Topbar({menuOpen, setMenuOpen}) {
         <div className='left'>
           <a href='#intro' className='logo'>ajsv.</a>
           <div className="itemContainer">
-            <RxPerson className='icon'/>
-            <a href="https://api.whatsapp.com/send?phone=552123913205">
-              <span>+55 21 2391-3205</span>
-            </a>
-          </div>
-          <div className="itemContainer">
             <IoIosMail className='icon'/>
             <a href="mailto:alvarojoao17@gmail.com">
               <span>alvaro.veiga.dev@gmail.com</span>
