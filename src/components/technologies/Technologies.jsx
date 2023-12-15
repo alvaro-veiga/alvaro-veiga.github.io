@@ -63,6 +63,12 @@ export default function Technologies() {
       desc: 'Django é um framework web de código aberto, escrito em Python, que utiliza o padrão de projeto Model-Template-View (MTV). É o framework que mais uso no dia a dia do meu trabalho para lidar com o back-end de um sistema complexo.'
     },
     {
+      id: '10',
+      nome: 'Java',
+      img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+      desc: 'Java já é uma linguagem mais robusta para criar pequenos sitemas arquitetados em padrões de projetos da programação. Também utilizo muito da linguagem para construir APIs assim como no python.'
+    },
+    {
       id: '11',
       nome: 'MySQL',
       img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',

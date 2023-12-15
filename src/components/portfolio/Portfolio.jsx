@@ -41,7 +41,7 @@ export default function Portfolio() {
     <div className='portfolio' id='portfolio'>
       <h1>Portfolio</h1>
       <div className='text'>
-        <h4>Atualmente estou cursando engenharia de software e faço estágio em uma empresa de logistica localiza no Rio de Janeiro e estou adquirindo bastante conhecimento em programação e desenvolvimento Web tanto front-end quanto back-end. As linguagens de programação que eu mais possuo conhecimento são Python e Javascript. Também utilizo constantemente as ferramentas básica de desenvolvimento web como o HTML5 e CSS3. E como frameworks que utilizo para deixar meus projetos mais dinâmicos são Flask, Django, React.js e Bootstrap. Além de bancos de dados relacionais como o PostgreSQL e o MySQL utilizando também a plataforma de serviço Devops sendo estes o Docker e por fim serviços de cloud como AWS e google cloud.
+        <h4>Atualmente estou cursando engenharia de software e faço estágio em uma empresa de logistica localiza no Rio de Janeiro e estou adquirindo bastante conhecimento em programação e desenvolvimento Web tanto front-end quanto back-end. As linguagens de programação que eu mais possuo conhecimento são Python, Java e Javascript. Também utilizo constantemente as ferramentas básica de desenvolvimento web como o HTML5 e CSS3. E como frameworks que utilizo para deixar meus projetos mais dinâmicos são Flask, Django, React.js e Bootstrap. Além de bancos de dados relacionais como o PostgreSQL e o MySQL utilizando também a plataforma de serviço Devops sendo estes o Docker e por fim serviços de cloud como AWS e google cloud.
         </h4>
       </div>
       <ul>
