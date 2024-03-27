@@ -98,6 +98,18 @@ export default function Technologies() {
       img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
       desc: 'Amazon Web Services (AWS) é uma plataforma de computação em nuvem oferecida pela Amazon.com. A AWS oferece uma variedade de serviços de computação, incluindo computação em nuvem, armazenamento em nuvem, bancos de dados em nuvem, análise de dados em nuvem, desenvolvimento de aplicativos em nuvem,. Uso para hospedar meus projetos e também para armazenar dados.'
     },
+    {
+      id: '16',
+      nome: 'Dart',
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg",
+      desc: 'Dart (originalmente denominada Dash) é uma linguagem de script voltada à web desenvolvida pela Google. Ela foi lançada na GOTO Conference 2011,[3] que aconteceu de 10 a 11 de outubro de 2011 em Aarhus, na Dinamarca. O objetivo da linguagem Dart foi inicialmente a de substituir a JavaScript como a linguagem principal embutida nos navegadores.[4] Programas nesta linguagem podem tanto serem executados em uma máquina virtual quanto compilados para JavaScript.'
+    },
+    {
+      id: '17',
+      nome: 'Flutter',
+      img: '"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"',
+      desc: 'A primeira versão do Flutter era conhecida com o codinome "Sky" e era executada no sistema operacional Android. Foi apresentado na cúpula de desenvolvedores Dart de 2015, com a intenção declarada de ser capaz de renderizar consistentemente a 120 quadros por segundo. Durante a keynote do Google Developer Days em Xangai, o Google anunciou o Flutter Release Preview 2, que é o último grande lançamento antes do Flutter 1.0.'
+    },
   ];
 
   const handleHover = (id) => {
