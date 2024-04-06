@@ -7,7 +7,7 @@ import Technologies from "./components/technologies/Technologies";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import { useState } from "react";
-
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
